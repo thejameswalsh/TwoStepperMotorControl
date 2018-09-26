@@ -44,8 +44,10 @@ void loop() {
   while(1){
     Serial.print("end of demo");    
   }
+}
 
 void input_meters(double meters){
-  mu2.drive((1*meters/dps););
+  mu2.drive((1*meters/dps));
 }
+
 
